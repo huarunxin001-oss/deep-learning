@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter and PyCharm
+.ipynb_checkpoints/
+.idea/
+*.iml
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Datasets and generated artifacts
+data/*
+!data/README.md
+datasets/
+models/
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+tensorboard/
+
+# Model, archive, and large result files
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.npz
+*.pkl
+*.joblib
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
