@@ -69,6 +69,8 @@ Python 文件和 Notebook 均已执行成功。Notebook 的 6 个代码单元没
 
 - 仓库：https://github.com/d2l-ai/d2l-zh
 - 固定提交：`e6b18ccea71451a55fcd861d7b96fddf2587b09a`
-- 原文：`chapter_linear-networks/linear-regression-scratch.md`
+- 官方正式标签：`v2.0.0`（提交 `3edee269d4c99153a1f57f263381df90e814c713`）
+- 版本核对：`v2.0.0` 与 `master` 的 `chapter_linear-networks` 目录完全一致
+- 原文：`chapter_linear-networks` 下 8 个非 `_origin.md` 生成文件
 - 许可证：Apache-2.0
 - 我的修改：移除 D2L 辅助包，改为直接 PyTorch，增加固定随机种子、函数封装和自动检查。
