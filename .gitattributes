@@ -4,4 +4,4 @@
 *.md text eol=lf
 *.txt text eol=lf
 *.toml text eol=lf
-03-线性神经网络/linear-regression-scratch.official.md -text
+03-线性神经网络/*.official.md -text
